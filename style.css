@@ -1,0 +1,41 @@
+body {
+    padding: 0;
+    margin: 10px;
+}
+
+.nav-bar {
+    background-color: grey;
+    border-radius: 30px;
+}
+
+.nav-bar ul {
+    overflow: auto;
+}
+
+.nav-bar li {
+    float: left;
+    list-style: none;
+    padding-top: 18px;
+}
+
+.nav-bar li a {
+    color: azure;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+.nav-bar li a:hover {
+    color: red;
+}
+
+.search {
+    float: right;
+    margin: auto;
+    padding: 14px 20px;
+}
+
+.search input {
+    border-radius: 15px;
+    border: 4px soid black;
+    padding: 4px;
+}
